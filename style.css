@@ -1,0 +1,133 @@
+body {
+  background-color: #232323;
+  background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: #766e6e;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+
+p {
+  color: #4980b695;
+  text-align: center;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px
+}
+
+p.center {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  padding: 15px
+}
+
+/* .one-third {
+  display: inline-block;
+  width: 33%;
+} */
+
+/* .navbar {
+  color: red;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+} */
+
+.verticaltext {
+  font-size: 40px;
+}
+
+.first-video {
+  
+}
+
+.overlap_pictures {
+  width: 50%;
+  max-width: 800px;
+  padding: 0%;
+  align-items: center;
+}
+
+.overlap {
+  display: grid;
+}
+
+.overlap1 {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.overlap2 {
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 3;
+}
+
+.overlap3 {
+  grid-column: 3 / span 3;
+  grid-row: 3 / span 3;
+}
+
+.first-video {
+  text-align: right;
+  vertical-align: text-bottom;
+}
+
+.fa-brands.fa-soundcloud {
+  color: rgb(242, 111, 35);
+  text-align: center;
+}
+
+.fa-solid.fa-record-vinyl {
+  color: rgb(242, 111, 35);
+}
+
+.fa-solid.fa-gamepad {
+  color: rgb(242, 111, 35);
+}
+
+.fa-solid.fa-cube {
+  color: rgb(242, 111, 35);
+}
+
+.fa-solid.fa-circle-plus {
+  color: white;
+}
+
+.table-hover {
+  background-color: blue;
+}
+
+.card-group {
+  justify-content: center;
+}
+
+.card-title {
+  color: white
+}
+
+.card {
+  background-color: inherit;
+}
+
+.card-btn {
+  text-align: justify;
+  float: right;
+}
+
+form {
+  color: white
+}
+
+.emailHelp {
+  color: white
+}

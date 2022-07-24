@@ -1,11 +1,43 @@
 body {
   background-color: #232323;
-  background-image: url('http://i.stack.imgur.com/kx8MT.gif');
-  background-size: cover;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
+  background-size: hight: 100%;
+  width: 20% padding: 10px;
+  margin: 10px;
+  background-image:url('https://64.media.tumblr.com/5a7a2ea6882859253f09850665023432/tumblr_mpap2t72jD1r4mh0bo1_500.gifv'); background-repeat:repeat; background-size: 35%;
 }
+
+.navbar {
+  color: rgb(151, 163, 178, 0.5);
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+/* .bg-image {
+
+  position: fixed;
+  width: 100px;
+  z-index: -2;
+  background-image: url("https://64.media.tumblr.com/5a7a2ea6882859253f09850665023432/tumblr_mpap2t72jD1r4mh0bo1_500.gifv");
+
+  filter: blur(100px);
+  -webkit-filter: blur(40px);
+  height: 100%; 
+border-style: hidden;
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+} */ 
+
+/* .bg-flex-box {
+  position: fixed;
+  width: 10px;
+  z-index: -1;
+border-style: hidden;
+} */ 
 
 h1,
 h2 {
@@ -44,11 +76,12 @@ div {
 } */
 
 .verticaltext {
+  text-align: center;
   font-size: 40px;
 }
 
 .first-video {
-  
+
 }
 
 .overlap_pictures {
@@ -83,24 +116,24 @@ div {
 }
 
 .fa-brands.fa-soundcloud {
-  color: rgb(242, 111, 35);
+  color: rgb(151, 163, 178, 0.5);
   text-align: center;
 }
 
 .fa-solid.fa-record-vinyl {
-  color: rgb(242, 111, 35);
+  color: rgba(151, 163, 178, 0.663);
 }
 
 .fa-solid.fa-gamepad {
-  color: rgb(242, 111, 35);
+  color: rgb(151, 163, 178, 0.663);
 }
 
 .fa-solid.fa-cube {
-  color: rgb(242, 111, 35);
+  color: rgb(151, 163, 178, 0.663);
 }
 
 .fa-solid.fa-circle-plus {
-  color: white;
+  color: rgb(151, 163, 178, 0.663);
 }
 
 .table-hover {
